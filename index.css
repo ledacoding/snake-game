@@ -1,0 +1,45 @@
+html,
+body {
+  width: 40%;
+  margin: 0 auto;
+  padding: 10;
+  font-family: "VT323", monospace;
+  background-color: #444444;
+  color: #ededed;
+}
+button {
+  background-color: #da0037;
+  border: none;
+  color: #ededed;
+  border-radius: 2px;
+}
+button:hover {
+  background-color: #ededed;
+  color: #da0037;
+}
+button:active {
+  background-color: #444444;
+  color: #da0037;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border: solid 3px #171717;
+  background-color: #ededed;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: #171717;
+}
+
+.apple {
+  background-color: #da0037;
+}
